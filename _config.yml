@@ -1,26 +1,18 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: Ryan Liang's Blog
+description: >
+  A blog for tracking Ryan's coding progress
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ryanliang.com" # the base hostname & protocol for your site
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  fullname: Ryan Liang
+  github: ryanliang
+  twitter: ryanliang
+  # disqus: your_disqus_username
 
-paginate:         5
+# google_analytics: 'UA-XXXXXXXX-X'
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# Build settings
+markdown: kramdown
