@@ -16,3 +16,4 @@ author:
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-hacker
