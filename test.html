@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+  <head>   
+    <script type="text/javascript">
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '1246253475']);
+	_elqQ.push(['elqTrackPageView']);
+
+	(function () {
+		function async_load() {
+			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+			s.src = 'https://img07.en25.com/i/elqCfg.min.js';
+			var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		}
+		if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+		else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+  </script>
+  </head>
+  <body>
+    <script> 
+	var timerId, timeout;
+	timeout = 5;
+	timerId = null;
+	function WaitUntilStatusLoaded() {
+		if (!!(timerId)) {
+			if (timeout == 0) {
+				console.log("Error: Timeout retriving optstatus!");
+				return;
+			}
+			if (typeof this.elqGetOptOutStatus === 'function') {
+				// !! NOTE: The line below retrieves the opt status.
+				console.log("OptStatus is: " + String(this.elqGetOptOutStatus()));				
+				return;
+			}
+			timeout -= 1;
+		}
+		timerId = setTimeout("WaitUntilStatusLoaded()", 500);
+		return;
+	}
+
+	_elqQ.push(['elqOptStatus']);
+	window.onload = WaitUntilStatusLoaded;
+      
+    </script>
+  </body> 
+</html>
