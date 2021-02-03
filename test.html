@@ -19,30 +19,6 @@
   </head>
   <body>
 	  test
-    <script> 
-	var timerId, timeout;
-	timeout = 5;
-	timerId = null;
-	function WaitUntilStatusLoaded() {
-		if (!!(timerId)) {
-			if (timeout == 0) {
-				console.log("Error: Timeout retriving optstatus!");
-				return;
-			}
-			if (typeof this.elqGetOptOutStatus === 'function') {
-				// !! NOTE: The line below retrieves the opt status.
-				console.log("OptStatus is: " + String(this.elqGetOptOutStatus()));				
-				return;
-			}
-			timeout -= 1;
-		}
-		timerId = setTimeout("WaitUntilStatusLoaded()", 500);
-		return;
-	}
-
-	_elqQ.push(['elqOptStatus']);
-	window.onload = WaitUntilStatusLoaded;
-      
-    </script>
+    
   </body> 
 </html>
