@@ -1,0 +1,29 @@
+baseURL = "https://blog.ryanliang.com/"
+languageCode = "en-us"
+title = "RANDOM THOUGHTS"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Ryan Liang"
+  homepage = "http://ryanliang.com/"
+
+[params]
+mainSections = ["posts"]
+headTitle = "RANDOM THOUGHTS"
+Description = "Work Hard! Stay Revelant!"
+#disqus = "joway" # disqus account name
+#extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+[[params.socials]]
+name = "about"
+link = "http://ryanliang.com"
+[[params.socials]]
+name = "github"
+link = "https://github.com/ryanliang"
+[[params.socials]]
+name = "linkedin"
+link = "https://www.linkedin.com/in/zhichengliang/"
+postHeaderContent = ""
+postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
+# extraCSSFiles = ["css/foo.css", "css/bar.css"]
+extraCSSFiles = []
