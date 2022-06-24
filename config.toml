@@ -16,7 +16,7 @@ Description = "Work Hard! Stay Revelant!"
 #extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
 [[params.socials]]
 name = "about"
-link = "http://ryanliang.com"
+link = "/about/"
 [[params.socials]]
 name = "github"
 link = "https://github.com/ryanliang"
