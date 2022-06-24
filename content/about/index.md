@@ -1,4 +1,4 @@
-[url](/cv.html)
+[url](/about/cv/)
 
 # Education
 **2005**: Hons. Bsc in Computer Science, University of Toronto.

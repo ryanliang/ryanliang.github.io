@@ -13,16 +13,19 @@ mainSections = ["posts"]
 headTitle = "RANDOM THOUGHTS"
 Description = "Work Hard! Stay Revelant!"
 #disqus = "joway" # disqus account name
-#extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+# extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
 [[params.socials]]
-name = "about"
-link = "/about/"
+name = "Home"
+link = "/"
 [[params.socials]]
-name = "github"
+name = "GitHub"
 link = "https://github.com/ryanliang"
 [[params.socials]]
-name = "linkedin"
+name = "Linkedin"
 link = "https://www.linkedin.com/in/zhichengliang/"
+[[params.socials]]
+name = "About"
+link = "/about/"
 postHeaderContent = ""
 postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
 # extraCSSFiles = ["css/foo.css", "css/bar.css"]
