@@ -1,7 +1,7 @@
 ---
 title: "Javascripts Notes1"
 date: 2019-06-27T22:39:58-04:00
-draft: true
+draft: false
 ---
 
 # var, let and const
